@@ -2,7 +2,8 @@
 
 ## 📸 Скриншоты проекта
 ### 💡 Светлая тема
-![Светлая тема](screenshots/light-theme.png)
+![Светлая тема]<img width="1528" height="867" alt="image" src="https://github.com/user-attachments/assets/27cc6436-a05c-483b-91ff-919c65cda617" />
+
 
 ### 🌙 Тёмная тема
 ![Тёмная тема](screenshots/dark-theme.png)
