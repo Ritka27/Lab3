@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Профиль разработчика</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <div class="profile">
+    <div class="card">
+      <!-- Фото -->
+      <img src="images/photo_2025-10-05_16-46-19.jpg" alt="Моя фотография" class="avatar">
+
+      <!-- Имя -->
+      <h2>Маргарита — Фронтенд-разработчик</h2>
+
+      <!-- Разделительная линия -->
+      <hr class="divider">
+
+      <!-- О себе -->
+      <div class="section about">
+        <h3>О себе</h3>
+        <p>
+          Привет! Я — фронтенд-разработчик, создаю современные сайты и веб-приложения с любовью к деталям. 
+          Моя цель — сделать интерфейсы не только красивыми, но и удобными.
+        </p>
+      </div>
+
+      <hr class="divider">
+
+      <!-- Опыт -->
+      <div class="section experience">
+        <h3>Опыт работы</h3>
+        <p>
+          💼 Фриланс-проекты по верстке и дизайну<br>
+          ⚙️ Разработка SPA-приложений на React<br>
+          🧠 Участие в хакатонах и командных проектах
+        </p>
+      </div>
+
+      <hr class="divider">
+
+      <!-- Проекты -->
+      <div class="section projects">
+        <h3>Проекты</h3>
+        <p>
+          🔹 Личный блог на React<br>
+          🔹 Приложение для задач<br>
+          🔹 Портфолио с анимациями
+        </p>
+      </div>
+
+      <hr class="divider">
+
+      <!-- Навыки -->
+      <div class="section">
+        <h3>Навыки</h3>
+        <ul class="skills">
+          <li>HTML / CSS / SCSS</li>
+          <li>JavaScript / Node.js</li>
+          <li>React / Vue</li>
+          <li>Git / GitHub</li>
+          <li>Figma / UI Design</li>
+          <li>Адаптивная верстка</li>
+        </ul>
+      </div>
+
+      <hr class="divider">
+
+      <!-- Кнопка смены темы -->
+      <button id="themeToggle">🌙 Сменить тему</button>
+    </div>
+  </div>
+
+  <script>
+    const body = document.body;
+    const btn = document.getElementById("themeToggle");
+
+    btn.addEventListener("click", () => {
+      body.classList.toggle("dark");
+    });
+  </script>
+</body>
+</html>
